@@ -1,0 +1,17 @@
+<form (ngSubmit)="save()">
+  <h2>Cadastro de curso</h2>
+  <div>
+    <label for="sigla">Nome</label>
+    <input id="sigla" name="sigla" [(ngModel)]="sigla" type="text" />
+  </div>
+  <div>
+    <label for="descricao">Descricao</label>
+    <input
+      id="descricao"
+      name="descricao"
+      [(ngModel)]="descricao"
+      type="text"
+    />
+  </div>
+  <button>Salvar</button>
+</form>
